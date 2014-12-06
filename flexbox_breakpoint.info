@@ -1,0 +1,4 @@
+name = Flexbox Breakpoint
+description = Get the last div of each row inside a multiline div
+package = Custom
+core = 7.x

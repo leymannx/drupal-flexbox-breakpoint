@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Provides a script.
+ */
+
+/**
+ * Implements hook_init().
+ */
+function flexbox_breakpoint_init() {
+	if (!path_is_admin(current_path())) {
+		drupal_add_js(drupal_get_path('module', 'flexbox_breakpoint') .'/flexbox_breakpoint.js');
+	}
+}
