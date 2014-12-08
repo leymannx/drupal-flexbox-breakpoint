@@ -4,7 +4,8 @@
 
       $('div[id^=block-views-portfolio-titles-block]').each(function () {
         var block = $(this);
-        var maxWidth = block.find('.content').first().width() - 200;
+        // var maxWidth = block.find('.content').first().width() - 200;
+        var maxWidth = 500;
         var counter = 0;
         var row = 0;
         var lines = 1;
