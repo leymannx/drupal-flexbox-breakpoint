@@ -11,3 +11,6 @@ item | item
 
 Since you can control the border of the very last item easily with CSS, you can't do that for every last item in one line. So I came up with that little script here.
 All divs widths are summed up. When a certain with is reached the one div which is at that place right then get a class stamped to it. So I can apply CSS rules for every last item of a line.
+
+TO DO (maybe):  
+- add a settings page to enter IDs and classes the script may use
